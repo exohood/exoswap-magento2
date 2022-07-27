@@ -1,0 +1,39 @@
+{
+    "name": "exoswap/magento2",
+    "type": "magento2-module",
+    "description": "Crypto Payment Gateway for Magento 2 via Exoswap",
+    "version": "1.0.2",
+    "keywords": [
+      "exoswap",
+      "bitcoin",
+      "merchant",
+      "exohood",
+      "magento",
+      "btc",
+      "ethereum",
+      "litecoin",
+      "eth",
+      "ltc",
+      "ripple",
+      "xrp",
+      "payment",
+      "business",
+      "altcoins"
+    ],
+    "homepage": "https://exohood.com/exoswap",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "The Exohood Project",
+            "homepage": "https://exohood.com/exoswap"
+        }
+    ],
+    "require": {
+    },
+    "autoload": {
+        "files": [ "registration.php" ],
+        "psr-4": {
+            "exoswap\\Payment\\": ""
+        }
+    }
+}
